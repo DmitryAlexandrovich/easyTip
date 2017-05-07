@@ -12,6 +12,7 @@
 		9C1879B11EB6E99A0082915D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1879AF1EB6E99A0082915D /* Main.storyboard */; };
 		9C1879B31EB6E99A0082915D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1879B21EB6E99A0082915D /* Assets.xcassets */; };
 		9C1879B61EB6E99A0082915D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1879B41EB6E99A0082915D /* LaunchScreen.storyboard */; };
+		9C1879C11EB6F65A0082915D /* EasyTipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1879C01EB6F65A0082915D /* EasyTipModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9C1879B21EB6E99A0082915D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C1879B51EB6E99A0082915D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C1879B71EB6E99A0082915D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1879C01EB6F65A0082915D /* EasyTipModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyTipModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		9C1879AA1EB6E99A0082915D /* Easy Tip */ = {
 			isa = PBXGroup;
 			children = (
+				9C1879BF1EB6F5CF0082915D /* Controller */,
+				9C1879BE1EB6F5C80082915D /* View */,
+				9C1879BD1EB6F5C00082915D /* Model */,
 				9C1879AB1EB6E99A0082915D /* AppDelegate.swift */,
-				9C1879AD1EB6E99A0082915D /* ViewController.swift */,
 				9C1879AF1EB6E99A0082915D /* Main.storyboard */,
 				9C1879B21EB6E99A0082915D /* Assets.xcassets */,
 				9C1879B41EB6E99A0082915D /* LaunchScreen.storyboard */,
 				9C1879B71EB6E99A0082915D /* Info.plist */,
 			);
 			path = "Easy Tip";
+			sourceTree = "<group>";
+		};
+		9C1879BD1EB6F5C00082915D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C1879C01EB6F65A0082915D /* EasyTipModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9C1879BE1EB6F5C80082915D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9C1879BF1EB6F5CF0082915D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C1879AD1EB6E99A0082915D /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1879C11EB6F65A0082915D /* EasyTipModel.swift in Sources */,
 				9C1879AE1EB6E99A0082915D /* ViewController.swift in Sources */,
 				9C1879AC1EB6E99A0082915D /* AppDelegate.swift in Sources */,
 			);
